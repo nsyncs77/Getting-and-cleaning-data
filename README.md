@@ -3,6 +3,11 @@ Getting-and-cleaning-data
 
 course project from getting and cleaning data
 
+
+
+
+
+
 run_analysis <- function(){
     xtest <- read.table("X_test.txt",fill = TRUE , header = FALSE)  ##  load in ##
     ytest <- read.table("Y_test.txt",fill = TRUE , header = FALSE, colClasses = "character")
