@@ -1,7 +1,13 @@
 Getting-and-cleaning-data
 =========================
+###Course project
 
-In the run_analysis function, first will load in relavent data, included test train and subject.
+The data is collected from the accelerometers from the Samsung Galaxy S smartphone.
+Here is the download link https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
+In this project, the run_analysis function will be created for the tidy data set.
+
+
+In the first stage, load in relavent data from the zipfile downloaded, included test, train and subject.
 
 <!-- -->
 
