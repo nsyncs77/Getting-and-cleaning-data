@@ -83,5 +83,6 @@ The final stage, creates a second, independent tidy data set with the average of
 
     scaleMelt <- melt(scale, id=subjectActivity, measure.vars=measurement)
     
-    final <- dcast(scaleMelt, activity+subject~variable, mean)    
+    final <- dcast(scaleMelt, activity+subject~variable, mean)
+    print(final)
     
