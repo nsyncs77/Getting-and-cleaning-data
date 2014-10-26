@@ -60,6 +60,7 @@ run_analysis <- function(){
     library(reshape2)       
     scaleMelt <- melt(scale, id=subjectActivity, measure.vars=measurement)
     
-    final <- dcast(scaleMelt, activity+subject~variable, mean)        
+    final <- dcast(scaleMelt, activity+subject~variable, mean)
+    print(final)
     
 }
