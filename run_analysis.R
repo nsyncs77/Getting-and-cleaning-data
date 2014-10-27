@@ -61,6 +61,6 @@ run_analysis <- function(){
     scaleMelt <- melt(scale, id=subjectActivity, measure.vars=measurement)
     
     final <- dcast(scaleMelt, activity+subject~variable, mean)
-    print(final)
+    write.table(final, "~/Desktop/Programming/R language/tidy.txt", sep="\t")
     
 }
